@@ -13,5 +13,5 @@ https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/
 ## - The problems mainly consisted with flex layouts and grids
 ## - We we're trying to make it look a certain way which consumed a lot of time.
 ## - If you right click -> inspect on chrome -> dimensions -> edit you can make a custom size as well however overall the default devices for mobile/tablets work just fine but it helps if we're being specific.
-## - wave.webaim.org site reflection: Although each page had alerts on it the overall function of the site did not have any errors. The alerts given were mainly from structure/semantics. I
+## - wave.webaim.org site reflection: Although each page had alerts on it the overall function of the site did not have any errors displaying the output. The alerts given were mainly from structure/semantics i.e missing first level heading.
 ## - We fixed the problems mainly by searching up tips and collabarting
