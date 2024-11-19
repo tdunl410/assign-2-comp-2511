@@ -5,4 +5,11 @@ https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/
 
 # Web Accessibility
 
-## Replace this text with your response here...
+## In your README.md file: document the category of issues that you identified through the manual and automated analysis above What kinds of changes did you have to make (I do not want a list here). Generalize the types of issues that you created when building your website, and then the general type of changes that you made to resolve those issues.How do these accessibility changes connect with the Gestalt principles we discussed earlier this semester?
+
+
+## - The issues we faced were trying to fork the assignment initially 
+## - One of the problems was having conflicting css rules
+## - The problems mainly consisted with flex layouts and grids
+## - We we're trying to make it look a certain way which consumed a lot of time.
+## - We fixed the problems mainly by searching up tips and collabarting
