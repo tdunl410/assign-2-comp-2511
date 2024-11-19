@@ -10,6 +10,8 @@ header {
 
 img.logo {/*sets size for logo */
     height: 50px;
+    display: flex;
+    
 }
 
 .full-width img {/*image for full width of the site but not full height*/
@@ -18,29 +20,36 @@ img.logo {/*sets size for logo */
 }
 
 /* Navigation styling */
+/* Navigation styling for vertical layout */
 nav ul {
     list-style: none;
-    display: flex;
-    gap: 20px;
+    display: block; /* Stack items vertically */
     padding: 0;
     margin: 0;
 }
 
+nav ul li {
+    margin-bottom: 10px; /* Add space between menu items */
+}
+
 nav a {
+    display: block; /* Each link takes up the full width */
     color: #F5F5F5; /* Light Gray */
     text-decoration: none;
-    padding: 5px 10px;
-    background-color: transparent;
+    padding: 10px 15px; 
+    background-color: #283739; /* Dark Blue */
+    border-radius: 4px; 
+    text-align: center; 
 }
 
 nav a:hover {
     background-color: #2C5D63; /* Teal */
-    border-radius: 4px;
 }
 
 nav a.active {
     color: #A9C52F; /* Lime Green */
     font-weight: bold;
+    background-color: #283739; /* Keep the background consistent */
 }
 
 /* Main content styling */
