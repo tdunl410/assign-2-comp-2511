@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Company careers page">
+    <meta name="keywords" content="Company, Careers, Jobs">
+    <meta name="author" content="Your Name">
+    <title>Careers</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/careers.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- navigation thingy-->
+        <div>
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="careers.html" class="active">Careers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- form stuff for requesting a job, puts in url-->
+        <form>
+            <label for="salutation">Salutation:</label>
+            <input type="radio" name="salutation" value="Mr"> Mr
+            <input type="radio" name="salutation" value="Ms"> Ms<br>
+
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required autofocus>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+
+            <label for="position">Position:</label>
+            <select id="position" name="position" required>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+            </select>
+
+            <input type="checkbox" name="agreement" required> I agree to terms and conditions<br>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <!--target="_blank" allows the site to be opened in a new tab-->
+    <p>SmartTech proudly partners with <a href="https://www.mru.ca" target="_blank">Mount Royal University</a>,
+        welcoming exclusively MRU BCIS students into our internship and co-op programs. Our aim is to provide these
+        students
+        with tailored, hands-on experience that aligns with their academic journey and professional growth.
+    </p>
+    <hr>
+
+
+    <footer>
+        <p>&copy; 2024 Smart Tech. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

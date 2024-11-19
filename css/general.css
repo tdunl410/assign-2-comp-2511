@@ -1,0 +1,101 @@
+/* General header and navigation styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #283739; /* Dark Blue */
+    color: #F5F5F5; /* Light Gray */
+}
+
+img.logo {/*sets size for logo */
+    height: 50px;
+}
+
+.full-width img {/*image for full width of the site but not full height*/
+    width: 100%;
+    height: auto; 
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #F5F5F5; /* Light Gray */
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+nav a:hover {
+    background-color: #2C5D63; /* Teal */
+    border-radius: 4px;
+}
+
+nav a.active {
+    color: #A9C52F; /* Lime Green */
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    background-color: #F5F5F5; /* Light Gray */
+    color: #283739; /* Dark Blue */
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #283739; /* Dark Blue */
+    color: #F5F5F5; /* Light Gray */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #A9C52F; /* Lime Green */
+    color: #283739; /* Dark Blue */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2C5D63; /* Teal */
+    color: #F5F5F5; /* Light Gray */
+}
+
+/* Additional styling for table and other components */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #2C5D63; /* Teal */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #283739; /* Dark Blue */
+    color: #F5F5F5; /* Light Gray */
+}
+
+table tr:nth-child(even) {
+    background-color: #F5F5F5; /* Light Gray */
+}
+
+table tr:nth-child(odd) {
+    background-color: #A9C52F; /* Lime Green */
+    color: #283739; /* Dark Blue */
+}

@@ -1,0 +1,108 @@
+/* Base Layout: General Styles */
+body {
+    background-color: #F5F5F5; /* Background color for the sides */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 100%; /* Ensure no overflow */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 20px;
+}
+
+/* General styles for containers */
+.container {
+    display: grid;
+    gap: 20px;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Small Devices (<= 590px) */
+@media screen and (max-width: 590px) {
+    /* Adjust header to stack logo and navigation vertically */
+    header {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center the items */
+    }
+
+    .logo-container {
+        margin-bottom: 20px; /* Space between logo and navigation */
+    }
+
+    /* Make navigation vertical for small screens */
+    nav {
+        width: 100%; /* Make navigation full width */
+        text-align: center;
+    }
+
+    nav ul {
+        display: block; /* Stack items vertically */
+        padding: 0;
+        margin: 0;
+        list-style-type: none; /* Remove bullet points */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Space between vertical menu items */
+    }
+
+    nav a {
+        display: block; /* Each link fills the line */
+        padding: 10px;
+        text-align: center; /* Center text inside links */
+        background-color: #2C5D63; /* Background color for links */
+        color: #F5F5F5; /* Light text color */
+        border-radius: 4px;
+        text-decoration: none;
+        width: 100%; /* Links take full width */
+    }
+
+    /* Adjust container to single column */
+    .container {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .text {
+        padding: 20px;
+    }
+}
+
+/* Medium Devices (590px - 790px) */
+@media screen and (min-width: 590px) and (max-width: 790px) {
+    /* Medium Devices: 2x2 grid */
+    .container {
+        grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+        gap: 20px;
+    }
+}
+
+/* Large Devices (> 790px) */
+@media screen and (min-width: 790px) {
+    /* Large Devices: Center content */
+    main {
+        max-width: 790px; /* Center content with fixed width */
+        margin: 0 auto; /* Center the main content */
+        background-color: white;
+    }
+
+    /* Use Grid for a centered layout */
+    .container {
+        grid-template-columns: 1fr 1fr; /* Maintain a 2-column grid */
+        gap: 20px;
+    }
+
+    body {
+        background-color: #F5F5F5; /* Background for the sides */
+    }
+}
+
