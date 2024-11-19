@@ -52,12 +52,7 @@ nav a.active {
     background-color: #283739; /* Keep the background consistent */
 }
 
-/* Main content styling */
-main {
-    background-color: #F5F5F5; /* Light Gray */
-    color: #283739; /* Dark Blue */
-    padding: 20px;
-}
+
 
 /* Footer styling */
 footer {
