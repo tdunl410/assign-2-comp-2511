@@ -41,7 +41,7 @@ main {
 
     /* Make navigation vertical for small screens */
     nav {
-        width: 100%; /* Make navigation full width */
+        width: 20%; /* Make navigation full width */
         text-align: center;
     }
 
