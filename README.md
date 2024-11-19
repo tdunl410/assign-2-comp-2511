@@ -12,4 +12,5 @@ https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/
 ## - One of the problems was having conflicting css rules
 ## - The problems mainly consisted with flex layouts and grids
 ## - We we're trying to make it look a certain way which consumed a lot of time.
+## - If you right click -> inspect on chrome -> dimensions -> edit you can make a custom size as well however overall the default devices for mobile/tablets work just fine but it helps if we're being specific.
 ## - We fixed the problems mainly by searching up tips and collabarting
