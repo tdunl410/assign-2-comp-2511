@@ -31,7 +31,7 @@ main {
     /* Adjust header to stack logo and navigation vertically */
     header {
         display: flex;
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
         align-items: center; /* Center the items */
     }
 
@@ -41,7 +41,7 @@ main {
 
     /* Make navigation vertical for small screens */
     nav {
-        width: 20%; /* Make navigation full width */
+        width: 100%; /* Make navigation full width */
         text-align: center;
     }
 
@@ -68,7 +68,9 @@ main {
     }
 
     /* Adjust container to single column */
-    .container {
+
+    body{
+        display: grid;
         grid-template-columns: 1fr; /* Single column layout */
     }
 
@@ -78,16 +80,18 @@ main {
 }
 
 /* Medium Devices (590px - 790px) */
-@media screen and (min-width: 590px) and (max-width: 790px) {
+@media screen and (min-width: 591px) and (max-width: 790px) {
     /* Medium Devices: 2x2 grid */
-    .container {
+    
+    body{
+        display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two equal columns */
         gap: 20px;
     }
 }
 
 /* Large Devices (> 790px) */
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 791px) {
     /* Large Devices: Center content */
     main {
         max-width: 790px; /* Center content with fixed width */
